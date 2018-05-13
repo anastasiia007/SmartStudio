@@ -1,0 +1,389 @@
+@media (max-width: 1980px) {
+  .content__wrapper {
+    max-height: 948px;
+  }
+  .review__block {
+    left: 27%;
+  }
+  .advantages {
+    p:before {
+      content: "ПРЕИМУЩЕСТВА ТРЕНИРОВОК НА СВЕЖЕМ ВОЗДУХЕ";
+    }
+  }
+}
+@media screen and (max-width: 1366px) {
+  .review__block {
+    left: 15%;
+  }
+}
+@media (max-width: 1125px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    position: relative;
+    &__logo {
+      width: 260px;
+      height: 120px;
+      position: absolute;
+      top: 34%;
+      left: 6%;
+      z-index: 1;
+    }
+  }
+  .review__block {
+    left: 9%;
+  }
+
+  .workout__items {
+    left: 59%;
+  }
+}
+
+@media (max-width: 1070px) {
+  .workout__items {
+    left: 62%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .advantages__img {
+    right: -30px;
+  }
+  .workout__items {
+    left: 65%;
+  }
+  .review__block {
+    left: 5%;
+  }
+  .slick-dots {
+    bottom: 27% !important;
+  }
+}
+
+@media (max-width: 1040px) {
+  .advantages__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .advantages__img {
+    display: none;
+  }
+  .review__block {
+    left: 2%;
+  }
+}
+
+@media (max-width: 930px) {
+  .slick-dots {
+    left: 90% !important;
+  }
+  .review__block {
+    left: 0;
+  }
+}
+
+@media (max-width: 890px) {
+  .workout__items {
+    background-color: rgba($color: $black, $alpha: 0.2);
+    left: 30%;
+    color: $white;
+    text-align: center;
+  }
+  .slick-slider {
+    left: 24%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    top: 130px;
+    left: 32%;
+  }
+  .content__wrapper {
+    margin-right: 15px;
+  }
+  .round {
+    left: 70%;
+  }
+  .workout__img {
+    width: 400px;
+    height: 435px;
+  }
+  .slick-dots {
+    left: 75% !important;
+  }
+
+  .about-studio__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-studio__name {
+    padding-top: 30px;
+  }
+  .about-studio__description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .team-content__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team-content__descr {
+    padding-bottom: 50px;
+  }
+  .team-content__name {
+    padding-top: 30px;
+  }
+  .team-content__description {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 740px) {
+  .form__fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+  }
+  .content__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form__btn--wrapper {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .content__title {
+    font-size: 70px;
+  }
+  .form__checkbox-wrapper {
+    display: flex;
+  }
+  .workout__items {
+    left: 67%;
+  }
+}
+@media (max-width: 710px) {
+  .workout__items {
+    background-color: rgba($color: $black, $alpha: 0.2);
+    left: 25%;
+    color: $white;
+    text-align: center;
+  }
+  .slick-slider {
+    left: 21%;
+  }
+}
+
+@media (max-width: 675px) {
+  .header__logo {
+    left: 27%;
+  }
+  .content__title {
+    font-size: 55px;
+  }
+  .round {
+    left: 33%;
+  }
+  .footer-content__item-title {
+    text-align: center;
+  }
+  .advantages__title {
+    text-align: center;
+  }
+  .slick-slider {
+    left: 11%;
+  }
+  .workout__items {
+    left: 16%;
+  }
+}
+@media (max-width: 545px) {
+  .content__title {
+    font-size: 45px;
+  }
+  .content__text1 {
+    font-size: 25px;
+  }
+  .advantages__exercises {
+    border: none;
+  }
+  .slick-slider {
+    left: 9%;
+  }
+  .workout__items {
+    left: 14%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__logo {
+    left: 22%;
+  }
+  .content__text1 {
+    font-size: 24px;
+  }
+  .round {
+    left: 25%;
+  }
+  .slick-slider {
+    left: 3%;
+  }
+  .workout__items {
+    left: 9%;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__logo {
+    left: 16%;
+    top: 60px;
+    width: 70%;
+  }
+  .round {
+    display: none;
+  }
+  .content__description {
+    height: 95px;
+  }
+  .form__fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+    margin-right: -5px;
+  }
+  .form__field {
+    width: 300px;
+    height: 75px;
+  }
+  .form__btn--wrapper {
+    height: 85px;
+  }
+  .content .form__btn {
+    width: 300px;
+    height: 50px;
+  }
+  .form__checkbox-item {
+    border: 1px solid $black;
+  }
+  .header {
+    height: 50px;
+    font-size: 22px;
+  }
+  .content {
+    min-height: 580px;
+  }
+  .content__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content__text1,
+  .content__text3 {
+    font-size: 16px;
+    padding-bottom: 2px;
+  }
+  .content__text2 {
+    font-size: 19px;
+  }
+  .content__title {
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+  .form__checkbox-wrapper {
+    display: flex;
+  }
+  .contemt__item {
+    height: 100%;
+  }
+  .workout__items {
+    background-color: rgba($color: $black, $alpha: 0.2);
+    left: 8%;
+    width: 270px;
+    color: $white;
+    text-align: center;
+  }
+  .workout__title {
+    padding-bottom: 20px;
+  }
+  .footer-content__item-title {
+    font-size: 20px;
+  }
+  .team-content__descr,
+  .about-studio__title {
+    text-align: center;
+  }
+  .review {
+    min-height: 500px;
+  }
+  .review__block {
+    height: 350px;
+  }
+
+  .advantages {
+    p:before {
+      content: "Почему тренировки на свежем воздухе эффективнее чем в зале?";
+      font-size: 16px;
+      font-weight: bold;
+      text-align: justify;
+      text-transform: uppercase;
+    }
+  }
+  .advantages__info {
+    position: static;
+  }
+  .advantages__content {
+    padding-top: 0;
+  }
+  .advantages__title {
+    display: flex;
+    width: 90%;
+  }
+  .advantages__info:after {
+    display: none;
+  }
+  .advantages__list {
+    padding: 0;
+  }
+  .advantages__exercises {
+    border: none;
+  }
+  li {
+    list-style: none;
+  }
+  .advantages__img {
+    display: block;
+    width: 300px;
+    height: 318px;
+    top: 86%;
+    right: 10px;
+  }
+  .map {
+    height: 500px;
+  }
+  .team-content__item {
+    width: calc((880px - 90px) / 3);
+  }
+  .slick-slider {
+    left: 0;
+  }
+  .review__icons {
+    font-size: 24px;
+  }
+}

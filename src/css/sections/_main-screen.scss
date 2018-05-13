@@ -1,0 +1,159 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 85px;
+  position: relative;
+  &__logo {
+    width: 280px;
+    height: 120px;
+    position: absolute;
+    top: 29%;
+    left: 15%;
+    z-index: 1;
+  }
+  &__days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    color: $black;
+    font-size: 28px;
+    font-weight: 300;
+  }
+}
+.content {
+  background: url("../img/main-bg.png") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 1112px;
+  color: $white;
+  display: flex;
+  position: relative;
+  &__wrapper {
+    width: 100%;
+    max-height: 970px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  &__description {
+    max-width: 680px;
+    height: 210px;
+    color: $white;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  &__title {
+    font-size: 76px;
+    font-weight: bold;
+  }
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .form {
+    max-width: 690px;
+    height: 130px;
+    &__fields {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &__field {
+      padding-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__name {
+      width: 340px;
+      height: 60px;
+      padding: 0 15px;
+      color: $black;
+    }
+    &__btn {
+      width: 340px;
+      height: 60px;
+      border: transparent;
+      background-color: $lagoon;
+      color: $white;
+      text-transform: uppercase;
+      font-size: 16px;
+      &:hover {
+        background-color: $blue2;
+        color: $white;
+      }
+      &:active {
+        color: $black;
+      }
+    }
+    &__checkbox-wrapper {
+      display: flex;
+    }
+    &__checkbox-item {
+      cursor: pointer;
+      position: relative;
+    }
+    input[type="checkbox"] {
+      display: none;
+    }
+    .pseudobox::before {
+      content: "\00A0";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25px;
+      height: 27px;
+      background-color: $white;
+      color: $lagoon;
+      font-size: 30px;
+      border-radius: 1%;
+      line-height: 1;
+      font-weight: bold;
+    }
+
+    input[type="checkbox"]:checked + .pseudobox::before {
+      content: "\2713";
+    }
+  }
+}
+
+.round {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: $lagoon;
+  position: absolute;
+  right: 0;
+  top: 88%;
+  left: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__description {
+    width: 178px;
+    height: 80px;
+  }
+  &__text1,
+  &__text2,
+  &__text3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: $white;
+  }
+  &__text1 {
+    padding-bottom: 20px;
+  }
+}

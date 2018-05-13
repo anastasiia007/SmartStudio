@@ -1,0 +1,29 @@
+//RESET
+@import "./base/_reset.scss";
+
+// FONTS
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,900");
+@import "./fontawesome-all.css";
+@import "./ionicons.min.css";
+@font-face {
+  font-family: "FuturaPT";
+  src: url("../webfonts/FuturaPTLight.otf");
+}
+
+//BASE
+@import "./base/_base.scss";
+@import "./base/_colors.scss";
+
+//SECTIONS
+@import "./sections/_main-screen.scss";
+@import "./sections/_advantages.scss";
+@import "./sections/_slider.scss";
+@import "./sections/_about.scss";
+@import "./sections/_team.scss";
+@import "./sections/_review.scss";
+@import "./sections/_footer.scss";
+@import "./sections/_media.scss";
+
+//PLUGINS
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+//@import "../../node_modules/slick-carousel/slick/slick-theme.scss";

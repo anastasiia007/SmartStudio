@@ -1,0 +1,33 @@
+{
+  "name": "smartstudio",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-pngquant": "^5.1.0",
+    "ionicons": "^3.0.0",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

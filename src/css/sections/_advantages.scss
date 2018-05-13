@@ -1,0 +1,44 @@
+.advantages {
+  width: 100%;
+  min-height: 766px;
+  &__info {
+    padding-top: 90px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      width: 90px;
+      height: 2px;
+      background-color: $orange;
+      bottom: 0;
+      left: calc(50% - 45px);
+    }
+  }
+  &__content {
+    max-width: 1060px;
+    padding-top: 45px;
+    position: relative;
+  }
+  &__exercises {
+    max-width: 610px;
+    min-height: 390px;
+    border: 2px solid $orange;
+  }
+  &__list {
+    max-width: 580px;
+    height: 250px;
+    padding: 50px 60px 0 50px;
+  }
+  li {
+    padding-bottom: 30px;
+  }
+  &__img {
+    position: absolute;
+    right: -17px;
+    top: 70px;
+  }
+}
