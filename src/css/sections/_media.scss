@@ -11,11 +11,13 @@
     }
   }
 }
+
 @media screen and (max-width: 1366px) {
   .review__block {
     left: 15%;
   }
 }
+
 @media (max-width: 1125px) {
   .header {
     display: flex;
@@ -34,7 +36,6 @@
   .review__block {
     left: 9%;
   }
-
   .workout__items {
     left: 59%;
   }
@@ -99,7 +100,24 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width:812px) {
+  .about-studio__wrapper,
+  .team-content__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-studio__item,
+  .team-content__item {
+    padding-bottom: 50px;
+  }
+  .header__logo {
+    width: 27%;
+  }
+}
+
+@media (max-width: 768px) {
   .header__logo {
     top: 130px;
     left: 32%;
@@ -114,10 +132,12 @@
     width: 400px;
     height: 435px;
   }
+  .workout__items {
+    left: 27%;
+  }
   .slick-dots {
     left: 75% !important;
   }
-
   .about-studio__wrapper {
     display: flex;
     justify-content: center;
@@ -131,7 +151,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   .team-content__wrapper {
     display: flex;
     justify-content: center;
@@ -177,6 +196,7 @@
     left: 67%;
   }
 }
+
 @media (max-width: 710px) {
   .workout__items {
     background-color: rgba($color: $black, $alpha: 0.2);
@@ -212,6 +232,7 @@
     left: 16%;
   }
 }
+
 @media (max-width: 545px) {
   .content__title {
     font-size: 45px;
@@ -335,7 +356,6 @@
   .review__block {
     height: 350px;
   }
-
   .advantages {
     p:before {
       content: "Почему тренировки на свежем воздухе эффективнее чем в зале?";
